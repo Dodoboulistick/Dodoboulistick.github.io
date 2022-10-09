@@ -41,7 +41,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
           source-directory: "./"
-          destination-github-username: "dodoboulistick"
+          destination-github-username: "Dodoboulistick"
           destination-repository-name: "dodoboulistick.github.io"
           user-email: mailhedori@cy-tech.fr
           target-branch: main
